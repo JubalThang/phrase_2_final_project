@@ -13,15 +13,72 @@
   }
 }
 
+.nav-bar {
+  text-align: left;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content:space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar img {
+  height: 6rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem;
+  background-color: palevioletred;
+  color: whitesmoke;
+}
+
+.home 
+{
+  height: 100vh;
+  width: 100%;
+  background:linear-gradient(rgba(241, 155, 155, 0.5),rgba(0, 0, 0, 0.5)),url('./back1.jpg');
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+    /* background-image:url('/images/back1.jpg'); */
+    /* background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center; */
+    /* background-image: url('./back1.jpg'); */
+}
+
+.home h1 {
+  font-size:4rem;
+  text-shadow: 2px 2px #fa4975;
+  letter-spacing: 1px;
+}
+
+.home p {
+  width: 80%;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header img {
+  border-radius: 10px;
 }
 
 .App-link {
